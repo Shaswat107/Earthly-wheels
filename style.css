@@ -3,12 +3,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Mahalo;
 }
 
 body {
     line-height: 1.6;
-    color: #333;
+    color: rgb(39, 28, 28);
 }
 
 .container {
@@ -29,8 +29,9 @@ header {
 }
 
 header .logo {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     text-align: center;
+    text-shadow: #333;
 }
 
 nav ul {
@@ -55,8 +56,9 @@ nav ul li a:hover {
 
 /* Hero Section Styles */
 .hero {
-    background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
-    color: #fff;
+  
+    background: url('header.webp') no-repeat center center/cover;
+    
     text-align: center;
     padding: 5rem 0;
     margin-top: 60px; /* Adjust for fixed header */
@@ -87,7 +89,7 @@ nav ul li a:hover {
 /* Destinations Section Styles */
 .destinations {
     padding: 3rem 0;
-    background: #f4f4f4;
+    background: rgb(106, 201, 238);
 }
 
 .destinations h2 {
@@ -128,7 +130,8 @@ nav ul li a:hover {
 /* About Us Section Styles */
 .about {
     padding: 3rem 0;
-    background: #fff;
+    color: #f4f4f4;
+    background: #165765;
 }
 
 .about h2 {
@@ -144,8 +147,10 @@ nav ul li a:hover {
 
 /* Contact Section Styles */
 .contact {
-    background: #f4f4f4;
+    background: #165765;
     padding: 3rem 0;
+    color: #f4f4f4;
+
 }
 
 .contact h2 {
@@ -158,35 +163,12 @@ nav ul li a:hover {
     margin-bottom: 2rem;
 }
 
-form {
-    max-width: 600px;
-    margin: 0 auto;
-}
 
-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form button {
-    background: #ff6600;
-    color: #fff;
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background: #e55d00;
+.contact h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #165765;
 }
 
 /* Footer Styles */
